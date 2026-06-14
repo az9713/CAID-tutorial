@@ -37,8 +37,8 @@ Recommended (OpenAI direct — serves both the agent and the OpenAI-native judge
 LLM_API_KEY=sk-...your-openai-key...
 LLM_BASE_URL=https://api.openai.com/v1
 LLM_MODEL=openai/gpt-4o-mini
-JUDGE_PYTHON=C:/Users/simon/Downloads/CAID_cmu/frontier-evals/.judge-venv/Scripts/python.exe
-SDK_SOURCE_DIR=C:/Users/simon/Downloads/CAID_cmu
+JUDGE_PYTHON=C:/Users/<you>/Downloads/CAID_cmu/frontier-evals/.judge-venv/Scripts/python.exe
+SDK_SOURCE_DIR=C:/Users/<you>/Downloads/CAID_cmu
 ```
 
 > **Gotcha:** `run_infer.py` unconditionally `os.chdir()`s to `SDK_SOURCE_DIR` before building the Docker workspace. It defaults to a non-existent `../software-agent-sdk` and crashes if unset. PaperBench uses the pre-built image, so any existing dir works — the repo root is fine.

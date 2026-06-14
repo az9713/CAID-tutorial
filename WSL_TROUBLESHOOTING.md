@@ -122,7 +122,7 @@ error decoding response body   (a.k.a. SSL "bad record mac")
 
 | Setting | Location | Current value | Permanent? |
 |---|---|---|---|
-| Networking mode | `C:\Users\simon\.wslconfig` | NAT (default) | reverted to default |
+| Networking mode | `C:\Users\<you>\.wslconfig` | NAT (default) | reverted to default |
 | MTU boot hook | `/etc/wsl.conf` | **`command = ip link set dev eth0 mtu 1280`** | ✅ applied + verified |
 | `eth0` MTU | runtime | **1280** — large transfers now clean | ✅ permanent (survives reboots) |
 | Staged wheels | (was `Downloads\caid_wheels\`) | **deleted** after fix verified | not needed |
@@ -134,7 +134,7 @@ error decoding response body   (a.k.a. SSL "bad record mac")
 
 ## Helper scripts produced during setup
 
-These live in `C:\Users\simon\Downloads\` and encode the working patterns:
+These live in `C:\Users\<you>\Downloads\` and encode the working patterns:
 - `wsl_copy.sh` — guarded copy from `/mnt/c` into WSL
 - `wsl_findlinks_install.sh` / `wsl_install_retry.sh` — retry-loop installs over the flaky link
 - `wsl_judge_setup.sh` — judge venv with pre-staged `pyarrow`

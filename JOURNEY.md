@@ -28,9 +28,9 @@ This document records the **full journey** of getting CAID (a multi-agent PaperB
 | Python (WSL) | 3.12.3 |
 | Python (Windows) | 3.13 |
 | uv | 0.10.2 (WSL: `~/.local/bin/uv`) |
-| WSL user / home | `az9713` / `/home/az9713` |
+| WSL user / home | `<you>` / `/home/<you>` |
 | Network | `eth0` MTU **1430** (VPN-like cap) — the root of the network pain |
-| Project source | `C:\Users\simon\Downloads\CAID_cmu` (a clone of `JiayiGeng/CAID`) |
+| Project source | `C:\Users\<you>\Downloads\CAID_cmu` (a clone of `JiayiGeng/CAID`) |
 
 Starting state: no `data/`, no `.venv`, Docker daemon **not running**, `.env` not present.
 
