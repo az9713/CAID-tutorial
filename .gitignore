@@ -1,6 +1,14 @@
 outputs/
 data/
 
+# PaperBench judge dependencies + dataset source (cloned locally, not committed)
+frontier-evals/
+.judge-venv/
+
+# Local-only scratch and runtime state (not for publishing)
+.ignore/
+.claude/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -4,6 +4,16 @@ import os
 from datetime import datetime
 from pathlib import Path
 
+# Load environment variables from a local .env file (LLM_API_KEY, LLM_BASE_URL,
+# LLM_MODEL, JUDGE_PYTHON, etc.) before anything reads os.environ. This mutates
+# os.environ in place, so the values are also inherited by the judge subprocess.
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv()
+except ImportError:
+    pass
+
 import fire
 import litellm
 from openhands.sdk import LLM

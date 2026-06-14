@@ -10,6 +10,8 @@
 > | [Add a task](docs/guides/add-a-task.md) | Bring your own benchmark via the TaskModule interface |
 > | [Configuration reference](docs/reference/configuration.md) | Every CLI argument and tunable parameter |
 > | [Troubleshooting](docs/troubleshooting/common-issues.md) | Common failures and exact fix commands |
+>
+> **Running it on Windows?** See the **[full setup journey + results](JOURNEY.md)** — every blocker, the clean replication path, and measured run results — plus the [local runbook](SETUP_PAPERBENCH_LOCAL.md) and [WSL fixes](WSL_TROUBLESHOOTING.md).
 
 This repo contains the code for CAID, a multi-agent workflow where a central manager agent delegates tasks to multiple engineer agents to execute asynchronously in isolated git worktrees.
 

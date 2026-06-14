@@ -23,4 +23,12 @@ A multi-agent workflow where a central manager LLM delegates software engineerin
 | [System design](architecture/system-design.md) | Architecture decisions, data flows, async model |
 | [Troubleshooting](troubleshooting/common-issues.md) | Docker failures, merge conflicts, LLM errors |
 
-> **New here?** Start with [what is this](overview/what-is-this.md), then follow the [quickstart](getting-started/quickstart.md).
+### Running on Windows / WSL2 (real-world setup)
+
+| Doc | What's inside |
+|-----|--------------|
+| [Setup journey & results](../JOURNEY.md) | The complete record: every blocker, the clean replication path, and measured results from three runs |
+| [Local runbook](../SETUP_PAPERBENCH_LOCAL.md) | Quick-reference run commands, judge deps, caveats |
+| [WSL troubleshooting](../WSL_TROUBLESHOOTING.md) | The permanent WSL network (MTU) fix in depth |
+
+> **New here?** Start with [what is this](overview/what-is-this.md), then follow the [quickstart](getting-started/quickstart.md). **Setting it up on Windows?** Read the [setup journey](../JOURNEY.md) first — it'll save you the multi-hour rediscovery.
