@@ -16,6 +16,7 @@ A multi-agent workflow where a central manager LLM delegates software engineerin
 | [Manager agent](concepts/manager.md) | Scan, delegate, assign, review — the manager's full lifecycle |
 | [Subagents](concepts/subagents.md) | Git worktrees, parallel runners, rounds, and merge strategies |
 | [Add a task](guides/add-a-task.md) | How to implement the TaskModule interface for a new benchmark |
+| [Extend with agentic features](guides/extend-with-agentic-features.md) | Five additive features with implementation sketches and unit tests |
 | [Interpret output](guides/interpret-output.md) | Reading cost.json, outputs.jsonl, grade.json, and patch.diff |
 | [Configuration reference](reference/configuration.md) | All WorkflowConfig fields and CLI arguments |
 | [Output files reference](reference/output-files.md) | Every output file: format, location, when produced |
